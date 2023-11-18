@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container .navbar ul{
+    display: flex;
+
+}
+.container img{
+    padding: 1.5rem 2.8rem;
+}
+.container .navbar ul{
+    padding: 1.5rem;
+}
+.container .link{
+    padding: 2rem;
+}
+.container .navbar ul li a{
+    padding-left: 1.5rem;
+    color:#333333;
+    height: 2rem;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.container .link a{
+    height: 1rem;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 1.06rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 1rem 3.75rem;
+}
+.container-main{
+    display: flex;
+    margin: auto;
+}
+.container-main .child-1 h2{
+    width: 30.1rem;
+    height: 15.5rem;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 5rem;
+    color: #1D4645;
+}
+.container-main .child-1 p{
+    width: 29.3rem;
+    height: 2.3rem;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #3F3F3F;
+    margin-top: 2.063rem;
+    margin-bottom: 2.188rem;
+}
+.container-main .child-1 .inp-but{
+    display: flex;
+}
+.container-main .child-1 .inp-but input{
+    width: 272px;
+    height: 62px;
+    background: #F2F2F2;
+    border: 1px solid #D3D3D3;
+    border-radius: 0.5rem;
+}
+.container-main .child-1 .inp-but .but a{
+    height: 1.06rem;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1D4645;
+    background: #E8C5B0;
+    padding: 0.938rem;
+    border: 1px solid #E8C5B0;
+    border-radius: 0.3rem;
+}
+.container-main .child-1 .inp-but .but button{
+    border: none;
+    outline: none;
+}
+.container-main .child-1 .inp-but .but{
+    margin-top: 1.3rem;
+    margin-left: 1.5rem;
+}
+.container-main .child-1 h3{
+    width: 420px;
+    height: 104px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    margin-top: 2.5rem;
+}
+.container-main .child-1{
+    margin-left: 8.4rem;
+    margin-top: 3.75rem;
+}
+.container-main .child-1 h3 span{
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    color: #1D4645;
+}
+/* EXPLORE-H2 START */
+
+.explore-h2{
+    display: flex;
+    justify-content: space-between;
+}
+.explore-h2 h2{
+    width: 519px;
+    height: 128px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #1D4645;
+}
+.explore-h2 a{
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    color: #1D4645;
+    border: 1px solid #1D4645;
+    margin-top: 4.375rem;
+    margin-bottom: 1.25rem;
+}
+
+/* EXPLORE-H2 END */
+/* EXPLORE START  */
+
+.explore{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    column-gap: 1.8rem;
+    row-gap: 2rem;
+    margin-top: 5rem;
+}
+.explore .child-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #102F2E;
+    width: 48.125rem;
+    height: 26rem;
+}
+.explore .child-1 h3{
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-left: 2.188rem;
+    padding-top: 2.813rem;
+}
+.explore .child-1 p{
+    width: 380px;
+    height: 168px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    color: #D2D2D2;
+    padding-top: 1.563rem;
+    padding-left: 2.188rem;
+}
+.explore .child-1 img{
+    width: 100%;
+    height: 26rem;
+}
+.explore .child-2{
+    background-color: #FFF2E6;
+    width: 23.125rem;
+    height: 26rem;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.explore .child-2 img{
+    padding-top: 2.813rem;
+    padding-left: 7.25rem;
+}
+.explore .child-2 h3{
+    width: 322px;
+    height: 41px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 41px;
+    color: #1D4645;
+    padding-left: 3.125rem;
+    padding-top: 3.125rem;
+}
+.explore .child-3{
+    background-color: #102F2E;
+    width: 23.125rem;
+    height: 26rem;
+}
+.explore .child-3 img{
+    padding-top: 2.813rem;
+    padding-left: 7.25rem;
+}
+.explore .child-3 h3{
+    width: 274px;
+    height: 32px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 3.125rem;
+    padding-top: 3.125rem;
+}
+.explore .child-4{
+    background-color: #FFF2E6;
+    width: 23.125rem;
+    height: 26rem;
+}
+.explore .child-4 img{
+    padding-top: 2.813rem;
+    padding-left: 7.25rem;
+}
+.explore .child-4 h3{
+    width: 274px;
+    height: 32px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 32px;
+    color: #1D4645;
+    padding-left: 3.125rem;
+    padding-top: 3.125rem;
+}
+.explore .child-5{
+    width: 23.125rem;
+    height: 26rem;
+    background-color: #102F2E;
+}
+.explore .child-5 img{
+    padding-top: 2.813rem;
+    padding-left: 7.25rem;
+}
+.explore .child-5 h3{
+    width: 296px;
+    height: 32px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 3.125rem;
+    padding-top: 3.125rem;
+}
+
+/* EXPLORE END  */
